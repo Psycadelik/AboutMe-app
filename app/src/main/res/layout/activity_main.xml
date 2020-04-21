@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
         <variable
             name="myName"
             type="com.bbit.aboutme.MyName" />
@@ -31,6 +32,7 @@
             android:ems="10"
             android:hint="@string/what_is_your_nickname"
             android:inputType="textPersonName"
+            android:text="@={myName.nickname}"
             android:textAlignment="center" />
 
         <Button
@@ -38,9 +40,9 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layout_margin"
             android:fontFamily="@font/roboto"
-            android:layout_gravity="center_horizontal"
             android:text="@string/done" />
 
         <TextView
@@ -48,7 +50,9 @@
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@={myName.nickname}"
             android:textAlignment="center"
+
             android:visibility="gone" />
 
         <ImageView
