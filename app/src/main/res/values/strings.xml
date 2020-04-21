@@ -2,4 +2,17 @@
     <string name="app_name">About Me</string>
     <string name="name">Adrian Francis</string>
     <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is Adrian
+    \n\n I have been writing code for the last six years
+        \n\n I write code in Python, Java, Php and JavaScript mainly
+        \n\n I am currently learning Android Kotlin and Scheme
+        \n\n Future Language Stacks include: Haskell, Clojure and Elm
+        \n\n Some online resources include: Cognitiveclass.ai, Harvard CS50 and hackerrank
+        \n\n My current read is Structure and Intepretation of Computer Programs
+        \n\n My hobbies include: reading, swimming, cycling, basketball and playing video games
+        \n\n I write articles in my spare time too
+        \n\n I love fish
+        \n\n I will be happy to show you how to make your own aquarium
+        \n\n
+    </string>
 </resources>
